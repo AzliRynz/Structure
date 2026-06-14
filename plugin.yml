@@ -1,0 +1,26 @@
+name: Structure
+version: 1.0.0
+main: Structure\Main
+api: 5.0.0
+description: "Spawn various Minecraft structures into the PMMP world"
+author: ""
+load: POSTWORLD
+website: ""
+
+commands:
+  structure:
+    description: "Spawn or manage structures"
+    usage: "/structure <spawn|list|info> [nama] [x] [y] [z]"
+    permission: structure.command
+    aliases: ["str"]
+
+permissions:
+  structure.command:
+    description: "Permission to use the /structure command"
+    default: op
+  structure.spawn:
+    description: "Permission to spawn the structure"
+    default: op
+  structure.admin:
+    description: "Full admin permission"
+    default: op
