@@ -40,8 +40,8 @@ class StructureManager {
         $this->register(new PillagerOutpost());
         $this->register(new Stronghold());
         $this->register(new VillageStructure());
-        $this->register(new NetherFortress());
-        $this->register(new EndCity());
+        //$this->register(new NetherFortress());
+        //$this->register(new EndCity());
     }
 
     public function register(BaseStructure $structure): void {
