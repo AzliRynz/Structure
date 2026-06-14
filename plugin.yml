@@ -10,7 +10,6 @@ website: ""
 commands:
   structure:
     description: "Spawn or manage structures"
-    usage: "/structure <spawn|list|info> [nama] [x] [y] [z]"
     permission: structure.command
     aliases: ["str"]
 
